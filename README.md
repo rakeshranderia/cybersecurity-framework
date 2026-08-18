@@ -174,5 +174,11 @@ A practical implementation should consider:
 
 The objective of ISO 27001 should not simply be certification. The ISMS should provide a sustainable framework for managing information security risk and supporting business objectives.
 
+## Architecture
+
+A high-level view of a modern cybersecurity architecture covering identity, endpoints, infrastructure, cloud, data, monitoring, incident response and resilience.
+
+[View Cybersecurity Architecture](architecture/cybersecurity-architecture.md)
+
 ---
 ---
