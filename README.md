@@ -78,4 +78,101 @@ Organisations can assess their cybersecurity maturity across five broad stages:
 
 The objective is not necessarily to reach the highest maturity level in every area. The appropriate target should be determined by **business risk, regulatory obligations, information sensitivity and organisational priorities**.
 
+## Cybersecurity Risk Management
+
+Cybersecurity should be managed as an organisational risk rather than purely as a technology issue.
+
+A practical risk management process should include:
+
+1. **Identify** — Identify critical systems, information, assets and dependencies.
+2. **Assess** — Evaluate threats, vulnerabilities, likelihood and potential impact.
+3. **Prioritise** — Focus resources on risks with the greatest potential business impact.
+4. **Treat** — Mitigate, transfer, accept or avoid risks based on organisational appetite.
+5. **Monitor** — Continuously review the effectiveness of controls and changes in the threat environment.
+6. **Report** — Provide management and the Board with clear visibility of material technology and cybersecurity risks.
+
+### Risk Considerations
+
+Cybersecurity risk assessments should consider:
+
+- Confidentiality, integrity and availability
+- Critical business processes
+- Regulatory obligations
+- Third-party dependencies
+- Data sensitivity
+- Threat landscape
+- Business impact
+- Recovery requirements
+
+---
+
+## Essential Eight
+
+The Australian Cyber Security Centre's Essential Eight provides a practical baseline for improving cyber resilience.
+
+The eight mitigation strategies are:
+
+| Control | Objective |
+|---|---|
+| **Application Control** | Prevent unauthorised applications from executing |
+| **Patch Applications** | Reduce vulnerabilities in applications |
+| **Configure Microsoft Office Macro Settings** | Reduce malicious macro execution |
+| **User Application Hardening** | Reduce browser and application attack surfaces |
+| **Restrict Administrative Privileges** | Limit opportunities for privilege escalation |
+| **Patch Operating Systems** | Reduce operating system vulnerabilities |
+| **Multi-Factor Authentication** | Reduce the risk of compromised credentials |
+| **Regular Backups** | Enable recovery from destructive attacks |
+
+A mature Essential Eight program should go beyond simply implementing individual controls. It should include:
+
+- Defined ownership
+- Maturity assessment
+- Risk-based prioritisation
+- Exception management
+- Continuous monitoring
+- Regular testing
+- Executive reporting
+
+---
+
+## ISO 27001
+
+ISO/IEC 27001 provides a systematic approach to establishing, implementing, maintaining and continually improving an Information Security Management System (ISMS).
+
+A practical implementation should consider:
+
+### Governance
+
+- Information security policy
+- Roles and responsibilities
+- Leadership accountability
+- Security objectives
+
+### Risk Management
+
+- Information security risk assessment
+- Risk treatment plans
+- Risk acceptance
+- Control effectiveness
+
+### Operational Controls
+
+- Access management
+- Asset management
+- Supplier security
+- Incident management
+- Business continuity
+- Security awareness
+
+### Assurance
+
+- Internal audits
+- Management reviews
+- Control testing
+- Corrective actions
+- Continual improvement
+
+The objective of ISO 27001 should not simply be certification. The ISMS should provide a sustainable framework for managing information security risk and supporting business objectives.
+
+---
 ---
