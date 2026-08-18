@@ -1,0 +1,70 @@
+# APRA CPS 234 — Information Security
+
+## Overview
+
+APRA CPS 234 establishes requirements for APRA-regulated entities to manage information security.
+
+The standard aims to ensure that an entity's information security capability is commensurate with its information security vulnerabilities and threats. :contentReference[oaicite:1]{index=1}
+
+---
+
+## Key Principles
+
+An APRA-regulated entity should maintain an information security capability that:
+
+- Protects information assets
+- Identifies and manages information security risks
+- Supports resilience against information security incidents
+- Includes appropriate controls
+- Provides assurance over control effectiveness
+
+---
+
+## Information Security Capability
+
+A mature capability should consider:
+
+- Governance
+- Risk management
+- Security policies
+- Asset management
+- Identity and access management
+- Security monitoring
+- Incident response
+- Third-party risk
+- Business continuity
+- Control assurance
+
+---
+
+## Roles and Accountability
+
+Information security responsibilities should be clearly assigned across management and the organisation.
+
+The Board and senior management require appropriate visibility of material information security risks and the effectiveness of controls.
+
+---
+
+## Control Assurance
+
+A key consideration is not simply whether controls exist, but whether they are:
+
+**Designed appropriately → Implemented → Operating effectively → Independently assured where appropriate**
+
+---
+
+## Third Parties
+
+Information assets managed by related parties and third parties should also be considered within the organisation's information security risk environment. :contentReference[oaicite:2]{index=2}
+
+Supplier risk should therefore be integrated into the broader technology and cybersecurity governance framework.
+
+---
+
+## Executive Perspective
+
+CPS 234 reinforces an important leadership principle:
+
+> Cybersecurity accountability cannot simply be delegated to the technology team.
+
+Technology leadership provides capability, assurance and advice, while organisational leadership retains accountability for managing material information security risk.
