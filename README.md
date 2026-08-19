@@ -1,53 +1,56 @@
 # Cybersecurity Framework
 
-A practical approach to cybersecurity strategy, governance, risk management and resilience.
+Cybersecurity works best when it is treated as a business risk and resilience discipline, not simply a collection of technical controls.
 
-## Purpose
+This repository brings together the frameworks, controls and practical approaches I use when thinking about cybersecurity strategy, governance, risk and resilience.
 
-This repository provides a practical, executive-level approach to establishing and improving cybersecurity within an organisation.
+It is intended as a practical reference rather than a prescriptive security model.
 
-It brings together cybersecurity strategy, governance, risk management, security frameworks and resilience into a single reference point.
+---
 
-The framework is designed to help organisations:
+## My Approach
 
-- Understand their cybersecurity risk
-- Establish appropriate security controls
-- Align cybersecurity with business objectives
-- Meet regulatory and compliance expectations
-- Improve organisational resilience
-- Create a structured roadmap for continuous improvement
+I tend to approach cybersecurity with a few principles in mind:
 
-## Cybersecurity Principles
+- **Start with risk** — understand what matters before deciding which controls to implement.
+- **Keep security connected to the business** — controls need to protect the organisation without unnecessarily preventing people from doing their jobs.
+- **Use frameworks as tools, not outcomes** — certification or maturity scores are useful, but they are not the end goal.
+- **Build in layers** — identity, endpoints, infrastructure, data, monitoring and recovery all contribute to the overall security posture.
+- **Test what you implement** — a documented control is not necessarily an effective control.
+- **Keep improving** — threats, technology and the organisation will continue to change.
 
-An effective cybersecurity program should be:
+The objective is ultimately straightforward:
 
-- **Risk-based** — Controls should reflect the organisation's actual risks and priorities.
-- **Business-aligned** — Security should enable the business rather than unnecessarily restrict it.
-- **Defence-in-depth** — Multiple layers of preventative, detective and responsive controls should be used.
-- **Proportionate** — Security investment should reflect the value and sensitivity of information and systems.
-- **Continuously improving** — Cybersecurity should evolve as threats, technology and the organisation change.
-- **Accountable** — Security responsibilities should be clearly understood across the organisation.
+**Understand the risk, implement proportionate controls, test whether they work and keep improving them.**
 
 ---
 
 ## Security Frameworks
 
-This framework considers established cybersecurity standards and regulatory expectations, including:
+Different frameworks provide different perspectives on the same underlying challenge.
 
-| Framework | Purpose |
+This repository considers several that I have worked with or used as reference points:
+
+| Framework | Primary Focus |
 |---|---|
-| **ISO 27001** | Information security management system |
-| **Essential Eight** | Australian cyber resilience controls |
-| **NIST CSF** | Cybersecurity risk management framework |
-| **SOC 2** | Controls relevant to security and trust services |
-| **PSPF** | Australian Government protective security requirements |
-| **APRA CPS 234** | Information security requirements for APRA-regulated entities |
+| **ISO 27001** | Information Security Management System |
+| **Essential Eight** | Practical cyber resilience controls |
+| **NIST CSF** | Cybersecurity risk management |
+| **SOC 2** | Security and trust service controls |
+| **PSPF** | Australian Government protective security |
+| **APRA CPS 234** | Information security for APRA-regulated entities |
+
+I don't see these as competing frameworks.
+
+Depending on the organisation, they can be used together to provide different levels of governance, control guidance and assurance.
 
 ---
 
 ## Core Security Domains
 
-The framework considers cybersecurity across the following areas:
+A cybersecurity program needs to consider more than perimeter security or endpoint protection.
+
+I generally look across the following areas:
 
 1. **Governance & Strategy**
 2. **Risk Management**
@@ -62,11 +65,17 @@ The framework considers cybersecurity across the following areas:
 11. **Third-Party & Supply Chain Risk**
 12. **Security Awareness & Culture**
 
+These areas are interconnected.
+
+For example, strong preventative controls still need detection and response capability, while good incident response has limited value if the organisation cannot recover its critical services.
+
 ---
 
 ## Security Maturity
 
-Organisations can assess their cybersecurity maturity across five broad stages:
+Maturity models are useful for understanding where capability currently sits and where investment may be required.
+
+A simple five-stage view is:
 
 | Level | Description |
 |---|---|
@@ -76,24 +85,44 @@ Organisations can assess their cybersecurity maturity across five broad stages:
 | **4 — Managed** | Measured, monitored and actively managed |
 | **5 — Optimised** | Continuously improving and risk-driven |
 
-The objective is not necessarily to reach the highest maturity level in every area. The appropriate target should be determined by **business risk, regulatory obligations, information sensitivity and organisational priorities**.
+I don't believe every organisation needs to achieve the highest maturity level in every security domain.
+
+The appropriate target depends on factors such as:
+
+- Business risk
+- Regulatory obligations
+- Information sensitivity
+- Threat exposure
+- Operational requirements
+- Cost
+- Organisational priorities
+
+The more useful question is not:
+
+**"How do we reach Level 5 everywhere?"**
+
+It is:
+
+**"Where does the organisation need greater maturity, and why?"**
+
+---
 
 ## Cybersecurity Risk Management
 
-Cybersecurity should be managed as an organisational risk rather than purely as a technology issue.
+Cybersecurity risk should be visible as an organisational risk rather than existing solely inside the technology function.
 
-A practical risk management process should include:
+A practical process is:
 
-1. **Identify** — Identify critical systems, information, assets and dependencies.
-2. **Assess** — Evaluate threats, vulnerabilities, likelihood and potential impact.
-3. **Prioritise** — Focus resources on risks with the greatest potential business impact.
-4. **Treat** — Mitigate, transfer, accept or avoid risks based on organisational appetite.
-5. **Monitor** — Continuously review the effectiveness of controls and changes in the threat environment.
-6. **Report** — Provide management and the Board with clear visibility of material technology and cybersecurity risks.
+1. **Identify** — understand critical systems, information, assets and dependencies.
+2. **Assess** — evaluate threats, vulnerabilities, likelihood and potential impact.
+3. **Prioritise** — focus effort on risks with the greatest potential business consequence.
+4. **Treat** — mitigate, transfer, accept or avoid risk based on organisational appetite.
+5. **Monitor** — review changes in risk and whether controls remain effective.
+6. **Report** — provide executives and the Board with visibility of material risks and decisions.
 
 ### Risk Considerations
 
-Cybersecurity risk assessments should consider:
+Assessments may need to consider:
 
 - Confidentiality, integrity and availability
 - Critical business processes
@@ -103,6 +132,8 @@ Cybersecurity risk assessments should consider:
 - Threat landscape
 - Business impact
 - Recovery requirements
+
+One of the important responsibilities of technology leadership is translating these issues into language that allows business leaders to make informed decisions.
 
 ---
 
@@ -123,23 +154,31 @@ The eight mitigation strategies are:
 | **Multi-Factor Authentication** | Reduce the risk of compromised credentials |
 | **Regular Backups** | Enable recovery from destructive attacks |
 
-A mature Essential Eight program should go beyond simply implementing individual controls. It should include:
+In practice, implementing the controls is only part of the work.
 
-- Defined ownership
+An ongoing Essential Eight program also needs:
+
+- Ownership
 - Maturity assessment
 - Risk-based prioritisation
 - Exception management
-- Continuous monitoring
-- Regular testing
-- Executive reporting
+- Monitoring
+- Testing
+- Reporting
+
+This turns the Essential Eight from a checklist into an operational security capability.
 
 ---
 
 ## ISO 27001
 
-ISO/IEC 27001 provides a systematic approach to establishing, implementing, maintaining and continually improving an Information Security Management System (ISMS).
+ISO/IEC 27001 provides a structured approach to establishing, implementing, maintaining and continually improving an Information Security Management System.
 
-A practical implementation should consider:
+I find the value of ISO 27001 is broader than certification.
+
+A functioning ISMS creates a repeatable way to connect:
+
+**Risk → Controls → Ownership → Evidence → Review → Improvement**
 
 ### Governance
 
@@ -151,7 +190,7 @@ A practical implementation should consider:
 ### Risk Management
 
 - Information security risk assessment
-- Risk treatment plans
+- Risk treatment
 - Risk acceptance
 - Control effectiveness
 
@@ -172,13 +211,46 @@ A practical implementation should consider:
 - Corrective actions
 - Continual improvement
 
-The objective of ISO 27001 should not simply be certification. The ISMS should provide a sustainable framework for managing information security risk and supporting business objectives.
+Certification can provide useful external assurance.
+
+The greater value, however, comes when the ISMS becomes part of normal technology and risk management rather than something maintained primarily for an annual audit.
+
+---
 
 ## Architecture
 
-A high-level view of a modern cybersecurity architecture covering identity, endpoints, infrastructure, cloud, data, monitoring, incident response and resilience.
+Cybersecurity is most effective when controls work together rather than operating as isolated products.
+
+The architecture section provides a high-level view across:
+
+**Identity → Endpoints → Infrastructure → Cloud → Data → Monitoring → Response → Recovery**
 
 [View Cybersecurity Architecture](architecture/cybersecurity-architecture.md)
 
 ---
+
+## From Framework to Practice
+
+Frameworks become more useful when they are applied to real organisational problems.
+
+In my Technology Leadership repository, I've documented an example of using ISO 27001:2022 transition work as part of a broader security maturity program covering governance, Essential Eight, SOC 2, data protection, detection, resilience and executive reporting.
+
+[Read: Building Cybersecurity Maturity](https://github.com/rakeshranderia/technology-leadership/blob/main/cybersecurity/security-maturity.md)
+
+That case study focuses less on the individual controls and more on how they were brought together as an ongoing security program.
+
 ---
+
+## Perspective
+
+One of the lessons I've taken from leading cybersecurity programs is that **more security does not automatically mean better security**.
+
+Controls need to address meaningful risk.
+
+They need to work operationally.
+
+They need clear ownership.
+
+And they need to be tested.
+
+A security program becomes sustainable when cybersecurity is no longer treated as a separate technology activity and instead becomes part of the way the organisation manages **risk, data, resilience and change**.
